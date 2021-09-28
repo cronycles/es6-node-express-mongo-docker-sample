@@ -7,12 +7,17 @@ Lo sviluppo dovrà prevedere l'upload del CV (utilizzando un box con funzionalit
 Inoltre, i contenuti dovranno provenire da un database strutturato appositamente.
 
 ## Tecnologie
-
-- Jamstack (a scelta)
-    - CMS headless a scelta
-    - Tecnologia Frontend "moderno" a scelta
-    - Database a scelta
-- Deploy su istanza Docker tramite docker-compose
+<ul>
+<li>Jamstack (a scelta)</li>
+<li>Second item</li>
+<ul>
+<li>CMS headless a scelta</li>
+<li>Tecnologia Frontend "moderno" a scelta</li>
+<li>Database a scelta</li>
+</ul>
+</li>
+<li>Deploy su istanza Docker tramite docker-compose</li>
+</ul>
 
 ## Requisiti
 
