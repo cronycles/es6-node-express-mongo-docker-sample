@@ -1,4 +1,5 @@
-<h1>Lead Developer - Koode Challenge</h1>
+Lead Developer - Koode Challenge
+===============
 
 # Richiesta
 
@@ -26,9 +27,10 @@ Il progetto dovrà essere fornito tramite Pull Request verso questo stesso repos
 
 ## Deadline
 
-La repo verrà chiusa in data 9/10/2021 pertanto, tutte le Pull Request dovranno pervenire entro e non oltre il giorno 8/10/2021.
+*La repo verrà chiusa in data 9/10/2021* pertanto, tutte le Pull Request dovranno pervenire entro e non oltre il giorno 8/10/2021.
 
-<h2>Informazioni utili</h2>
+Informazioni utili
+---------------
 
 ## Chi stiamo cercando
 Stiamo cercando un Lead Web Developer con esperienza lavorativa nel settore da almeno 6 anni. La figura lavorerà a stretto contatto con il project manager di riferimento per identificare gli obiettivi di progetto e assicurarsi che il team di Web Development e le tecnologie utilizzate siano allineati al raggiungimento delle milestone individuate.
