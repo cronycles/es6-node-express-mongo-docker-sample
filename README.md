@@ -1,4 +1,5 @@
-# Lead Developer - Koodit Code Challenge
+<h1>Lead Developer - Koode Challenge</h2>
+# Lead Developer - Koode Challenge
 
 Ricreare la pagina https://www.koodit.it/carriera/lead-web-developer/ in tutte le sue parti, rispettando la grafica fornita.
 
@@ -24,4 +25,5 @@ Il progetto dovrà essere fornito tramite Pull Request verso questo stesso repos
 
 ## Deadline
 
-Il progetto dovrà essere consegnato nell'arco di una settimana.
+La repo verrà chiusa in data 9/10/2021 pertanto, tutte le Pull Request dovranno pervenire entro e non oltre il giorno 8/10/2021.
+
