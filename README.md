@@ -8,8 +8,7 @@ Inoltre, i contenuti dovranno provenire da un database strutturato appositamente
 
 ## Tecnologie
 <ul>
-<li>Jamstack (a scelta)</li>
-<li>Second item</li>
+<li>Jamstack (a scelta)
 <ul>
 <li>CMS headless a scelta</li>
 <li>Tecnologia Frontend "moderno" a scelta</li>
