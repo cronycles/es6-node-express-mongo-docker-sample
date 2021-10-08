@@ -27,7 +27,7 @@ Il progetto dovrà essere fornito tramite Pull Request verso questo stesso repos
 
 ## Deadline
 
-*La challenge sarà considerata valida se consegnata entro e non oltre 15 giorni dalla ricezione della candidatura raggiungibile da: ; pertanto, tutte le Pull Request dovranno *pervenire entro e non oltre il giorno il quindicesimo giorno dalla ricezione della candidatura per essere ritenute valide.
+*La challenge sarà considerata valida se consegnata entro e non oltre 15 giorni dalla ricezione della candidatura raggiungibile da: [https://www.koodit.it/carriera/lead-web-developer/](https://www.koodit.it/carriera/lead-web-developer/); pertanto, tutte le Pull Request dovranno *pervenire entro e non oltre il giorno il quindicesimo giorno dalla ricezione della candidatura per essere ritenute valide.
 
 Informazioni utili
 ===============
