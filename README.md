@@ -27,7 +27,7 @@ Il progetto dovrà essere fornito tramite Pull Request verso questo stesso repos
 
 ## Deadline
 
-*La challenge sarà attiva fino al giorno 11/10/2021, la repo verrà chiusa in data 12/10/2021* pertanto, tutte le Pull Request dovranno pervenire entro e non oltre il giorno 11/10/2021.
+*La challenge sarà considerata valida se consegnata entro e non oltre 15 giorni dalla ricezione della candidatura raggiungibile da: ; pertanto, tutte le Pull Request dovranno *pervenire entro e non oltre il giorno il quindicesimo giorno dalla ricezione della candidatura per essere ritenute valide.
 
 Informazioni utili
 ===============
