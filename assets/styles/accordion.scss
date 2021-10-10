@@ -1,0 +1,50 @@
+.accordion {
+    background-color: #336fb5;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    border-radius: 15px;
+    margin-bottom: 4px;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.square {
+    font-size: 20px;
+    font-weight: bold;
+    display: inline;
+    margin-right: 0.7rem;
+}
+.plus {
+    display: block;
+    text-align: center;
+    transition: 0.5s;
+    padding-top: 4px;
+}
+.plus {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+
+    i {
+        font-size: 25px;
+        font-weight: 700;
+    }
+}
+.accordion.active .plus {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

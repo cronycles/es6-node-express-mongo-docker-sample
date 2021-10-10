@@ -1,0 +1,119 @@
+@import "./accordion.scss";
+@import "./dragDrop.scss";
+
+.titles__head {
+    margin-bottom: 1.5rem;
+}
+
+.accordions_container,
+.form__container {
+    padding-top: 1.5rem;
+}
+
+.form__container {
+    .form__fields {
+        display: block;
+        div {
+            margin-bottom: 1rem;
+        }
+    }
+
+    .form__github {
+        margin-bottom: 4rem;
+    }
+
+    .form__github > div {
+        padding-top: 3rem;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .form__container {
+        display: grid;
+        grid-template-columns: 600px;
+        .form__fields {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 1rem;
+            row-gap: 2rem;
+        }
+    }
+}
+
+
+input:not([disabled]):not([type="submit"]):not([type='checkbox']) {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    padding: 0.375rem 0.75rem;
+    border-bottom: 2px solid #336fb5;
+    color: #495057;
+    width: 100%;
+}
+
+input[type=submit] {
+    background-color: #336fb5;
+    color: #fff;
+    border: none;
+    letter-spacing: 1px;
+    text-align: center;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: .25rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+input:disabled[type=submit] {
+    opacity: .65;
+    cursor: not-allowed;
+}
+
+
+input[type=checkbox] {
+    margin-bottom: 2rem;
+}
+
+.form__privacy p {
+    margin-bottom: 1rem;
+}
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #336fb5;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #336fb5;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #336fb5;
+}
+
+.not-valid {
+    color: #dc3545;
+    display: none;
+}
+
+.general-error, .generic-error {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #ffb900;
+    color: #212529;
+    display: none;
+}
+
+.form-ok {
+    margin: 2em 0.5em 1em;
+    padding: 0.2em 1em;
+    border: 2px solid #46b450;
+    color: #212529;
+    display: none;
+}

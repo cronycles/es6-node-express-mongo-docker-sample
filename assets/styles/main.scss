@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700&display=swap");
+
+:root {
+    --ui-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+        0 4px 5px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.08);
+    fill: rgba(0, 0, 0, 0.54);
+    --ui-shadow-border: 1px solid rgba(0, 0, 0, 0.14);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+input,
+textarea,
+button {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #336fb5;
+    text-align: left;
+    background-color: #fff;
+}
+
+a {
+    color: #336fb5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 55px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h3 {
+    padding-top: 3rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.wrapper {
+    padding-top: 3rem;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+@media (min-width: 576px) {
+    .wrapper {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .wrapper {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .wrapper {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .wrapper {
+        padding-left: 1rem ;
+        padding-right: 1rem;
+    }
+}

@@ -1,0 +1,81 @@
+.footer {
+    background-color: #336fb5;
+    color: #fff;
+    padding: 30px 0;
+    margin-top: 30px;
+    a {
+        color: #fff;
+    }
+}
+
+.headquarter__container, .second__container {
+    width: 100%;
+    padding-top: 3rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.headquarter__container {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    grid-column-gap: 30px;
+    row-gap: 30px;
+    font-size: 70%;
+}
+
+@media (min-width: 576px) {
+    .headquarter__container, .second__container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .headquarter__container, .second__container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .headquarter__container, .second__container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .headquarter__container, .second__container {
+        max-width: 1140px;
+    }
+}
+
+@media (max-width: 768px) {
+    .headquarter__container, .second__container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+
+.second__container {
+    display: block;
+    .right {
+        margin-top: 20px;
+        text-align: right;
+        font-size: 2em;
+    }
+    p {
+        margin-top: 0;
+        font-size: 15px;
+        font-weight: 300;
+    }
+}
+
+@media (min-width: 768px) {
+    .second__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 30px;
+        row-gap: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+version: "3.8"
+
+services:
+    mongo:
+        image: mongo
+        volumes:
+            - ./data:/data/db
+        ports:
+            - "27017:27017"
+    login-app:
+        depends_on:
+            - mongo
+        container_name: lead-dev-codechallenge
+        image: cronycles/lead-dev-codechallenge
+        restart: always
+        build: .
+        ports:
+             - "7500:7500"

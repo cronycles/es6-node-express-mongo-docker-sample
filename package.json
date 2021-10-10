@@ -1,0 +1,46 @@
+{
+  "name": "lead-dev-codechallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "dev": "nodemon --inspect app.js",
+    "dev with browser sync": "nodemon ./app.js & browser-sync start --config bs-config.cjs",
+    "test": "jest --watchAll --verbose=false --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "babel-jest": "^27.2.0",
+    "babel-plugin-transform-import-meta": "^2.1.0",
+    "browser-sync": "^2.27.5",
+    "css-loader": "^6.4.0",
+    "jest": "^27.0.6",
+    "jquery.loadtemplate": "^1.5.10",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.58.1",
+    "webpack-cli": "^4.9.0"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.3",
+    "jquery": "^3.6.0",
+    "mongoose": "^6.0.6",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.5",
+    "nodemon": "^2.0.12",
+    "regenerator-runtime": "^0.13.9"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "./tests/setup.tests.js"
+    ]
+  }
+}
