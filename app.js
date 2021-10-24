@@ -40,11 +40,19 @@ app.use(express.json());
 app.use("/", router); //to use the routes
 
 /**
+ * MONGO DB connection string
+ */
+
+const mongoDBconnectionStringLocal = "mongodb://localhost/es6-node-express-mongo-docker-sample";
+const mongoDBconnectionStringDocker = "mongodb://mongo:27017/es6-node-express-mongo-docker-sample";
+const mongoDBconnectionString = mongoDBconnectionStringDocker;
+
+/**
  * Server Activation
  */
 
 if (process.env.NODE_ENV !== "test") {
-  mongoose.connect("mongodb://mongo:27017/leadDev", function (err, res) {
+  mongoose.connect(mongoDBconnectionString, function (err, res) {
     if (err) {
       console.log("ERROR: connecting to Database. " + err);
     }

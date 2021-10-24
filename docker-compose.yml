@@ -10,8 +10,8 @@ services:
     login-app:
         depends_on:
             - mongo
-        container_name: lead-dev-codechallenge
-        image: cronycles/lead-dev-codechallenge
+        container_name: es6-node-express-mongo-docker-sample
+        image: cronycles/es6-node-express-mongo-docker-sample
         restart: always
         build: .
         ports:

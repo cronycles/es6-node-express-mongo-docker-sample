@@ -1,17 +1,34 @@
-Lead Developer - Koode Challenge
+es6-node-express-mongo-docker-sample
 ===============
 
-## Richiesta
+## What is
 
-Ricreare la pagina https://www.koodit.it/carriera/lead-web-developer/ in tutte le sue parti, rispettando la grafica fornita.
+It is a sample page where you can upload your CV (with drag and drop funcionality) and email sending with database saving data. All using Docker.
 
-Lo sviluppo dovrà prevedere l'upload del CV (utilizzando un box con funzionalità Drag & Drop) e l'invio via mail di tutti i dati, oltre che il salvataggio su database.
+## Technologies
 
-Inoltre, i contenuti dovranno provenire da un database strutturato appositamente.
+- NodeJS
+- Express 
+- Mongodb
+- Docker
 
-## Soluzione adottata
+## Getting Started
+The app can be started in 2 ways: with docker or without:
 
-Ho deciso di adottare NodeJS, express e mongodb, per fare in modo di darvi un esempio un po' diverso dal classico Wordpress.
-Diciamo che ci sono alcune cose mancanti, ma il grosso credo sia fatto.
+### With Docker
+- Open up ```app.js``` file 
+- Find the variable called ```mongoDBconnectionString``` 
+- Fe sure ```mongoDBconnectionString```  is assigned the value of```mongoDBconnectionStringDocker```
 
-Se e quando volete possiamo discutere a voce della soluzione
+``` 
+docker-compose up
+```
+You can see the page on http://localhost:7500/
+
+### Without Docker
+- Open up ```app.js``` file 
+- Find the variable called ```mongoDBconnectionString``` 
+- Fe sure ```mongoDBconnectionString```  is assigned the value of```mongoDBconnectionStringLocal```
+- Launch npm script called ```dev with browser sync```
+
+You can see the page on http://localhost:3000/
